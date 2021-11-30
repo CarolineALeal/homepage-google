@@ -1,0 +1,70 @@
+.menu {
+    float: right;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    
+}
+li{
+    float: left; /*alinhar o menu*/
+}
+
+ul{
+    list-style-type: none; /*tirar as bolinhas do menu*/
+}
+
+li a{
+    text-decoration: none; /*tirar o sublinhado do menu*/
+    padding-left: 10px; 
+    padding-right: 10px;
+    text-align: center;
+    color: rgb(65, 62, 62);
+}
+.pesquisa{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    
+}
+
+.busca{
+    
+    position: absolute; 
+    top: 110%;
+    left: 0%;
+    padding: 10px;  
+    border: solid;
+    border-radius: 15px; /*arredondamento da borda*/ 
+    color: rgb(230, 227, 227);
+}
+
+input{
+    
+    width: 400px;
+
+}
+
+.buttons{
+    position: absolute;
+    top: 160%;
+    
+}
+
+.icone_mic{
+    position: absolute;
+    top: 118%;
+    left: 145%;  
+}
+
+.icone_search{
+    position: absolute;
+    top: 125%;
+    left: 3%;
+}
+
+.logo{
+    forced-color-adjust: none;
+    height: 92px;
+    width: 272px;
+}
